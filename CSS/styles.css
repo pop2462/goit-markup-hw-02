@@ -1,0 +1,98 @@
+/* secondary color text color: #212121;*/
+/* Primary color text color: #757575; */
+/*Белый olor: #ffffff;*/
+/*Акцент color: #2196F3;*/
+/*Фон кнопок лист 2 color: #F5F4FA;*/
+/* Фон героя background: #2F303A; */
+/* Текст контактов поля арес color: rgba(255, 255, 255, 0.6); */
+/* Цвет текста лого #000000 */
+
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color:  #212121;
+  --accent-color: #2196f3;
+  --primary-whit-color: #ffffff;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--secondary-text-color);
+}
+
+.logo:hover {
+  color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--secondary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Contact link */
+
+.contact-link .connection {
+  color: var(--primary-text-color);
+}
+
+.contact-link .connection:hover,
+.contact-link .connection:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: var(--secondary-text-color);
+}
+
+/* Section */
+.section-title {
+  color: var(--secondary-text-color);
+}
+
+/* Feature */
+
+.feature-list .title {
+  color: var(--secondary-text-color);
+}
+
+/* Button */
+
+/* .button {
+    color: var(--secondary-text-color)
+    backgraund-color: var(--primary-whit-color)
+  }
+
+
+
+
+
+  
+
+.button.primary {
+    color: var(--primary-whit-color)
+    backgraund-color: var(--accent-color)
+}
+
+.button.secondary {
+    color: var(--accent-color)
+    backgraund-color: var(--primary-whit-color)
+} */
