@@ -30,20 +30,23 @@ body {
 /* Logo */
 .logo {
   color: var(--logo-text-color);
-
   font-family: "Raleway", sans-serif;
-
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
-.logo-studio {
+.logo-header {
   color: #000000;
 }
 
-.logo-studio:hover {
+.logo-footer {
+  color: #ffffff;
+}
+
+.logo-header:hover,
+.logo-footer:hover {
   color: var(--accent-color);
 }
 
@@ -51,7 +54,6 @@ body {
 
 .site-nav .link {
   color: var(--secondary-text-color);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -81,8 +83,7 @@ body {
 /* Hero */
 
 .hero-title {
-  color: #FFFFFF;
-
+  color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -93,13 +94,12 @@ body {
 /* Bchero */
 
 .bchero {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 /* Section */
 .section-title {
   color: var(--secondary-text-color);
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -110,7 +110,6 @@ body {
 
 .feature-list .title {
   color: var(--secondary-text-color);
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -126,20 +125,30 @@ body {
 
 .team-list .title {
   color: var(--secondary-text-color);
-
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
 }
 
 /* Footer */
 
+.adress {
+  color: #ffffff;
+}
 
-/* Bcfooter */
+.connection-footer {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* .footer.bcfooter .connection-footer:hover,
+.footer.bcfooter .connection-footer:focus {
+  color: var(--accent-color); */
 
 .bcfooter {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 /* Button */
@@ -165,3 +174,20 @@ body {
 }
 
 /* Portfolio */
+
+/* Robots */
+
+.robots-list .title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.robots-list .text {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
