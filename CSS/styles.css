@@ -23,6 +23,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .list {
   list-style: none;
 }
@@ -133,7 +137,6 @@ body {
   line-height: 1.19;
 }
 
-
 /* Footer */
 
 .adress {
@@ -148,9 +151,10 @@ body {
   text-decoration: none;
 }
 
-/* .footer.bcfooter .connection-footer:hover,
+.footer.bcfooter .connection-footer:hover,
 .footer.bcfooter .connection-footer:focus {
-  color: var(--accent-color); */
+  color: var(--accent-color);
+}
 
 .bcfooter {
   background-color: #2f303a;
@@ -200,8 +204,4 @@ body {
 
 .robots-list .link {
   text-decoration: none;
-}
-
-.pointer {
-  cursor: pointer;
 }
