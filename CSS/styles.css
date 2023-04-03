@@ -185,7 +185,7 @@ body {
 
 .button {
   color: var(--secondary-text-color);
-  background-color: var(--primary-whit-color);
+  background-color: #F5F4FA;
 
   font-weight: 700;
   font-size: 16px;
